@@ -24,6 +24,6 @@ else {
 
 // return json response and log to testing file
 echo $return;
-file_put_contents("test.txt","$str_date  $return", FILE_APPEND);
+file_put_contents("test.txt","\n$str_date  $return", FILE_APPEND);
 
 ?>
